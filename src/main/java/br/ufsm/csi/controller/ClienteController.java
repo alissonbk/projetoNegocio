@@ -3,6 +3,7 @@ package br.ufsm.csi.controller;
 import br.ufsm.csi.dao.ClienteDAO;
 import br.ufsm.csi.model.Cliente;
 import br.ufsm.csi.model.Endereco;
+import br.ufsm.csi.service.Contador;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -59,6 +60,7 @@ public class ClienteController extends HttpServlet {
 
         req.setAttribute("retorno", retorno);
         System.out.println("Retorno--->"+retorno);
+
 
         req.setAttribute("clientes", new ClienteDAO().getClientes());
         RequestDispatcher rd = req.getRequestDispatcher("/clientes.jsp");

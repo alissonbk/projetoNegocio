@@ -1,0 +1,68 @@
+/*GoogleFonts - Montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,500&display=swap');
+
+/*PROGRESS BAR*/
+.circle-box div{
+    padding: 0 40px;
+}
+.progressbar-text {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#data-area p{
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+/*BODY*/
+.home-body{
+    background: linear-gradient(55deg, rgb(239, 239, 239), rgb(189, 189, 189));
+}
+
+.card-bg{
+    background: rgba(230, 230, 230, 0.8);
+}
+
+.form-body{
+    background: rgba(245, 245, 245, .7);
+}
+
+/*FORM*/
+.my-form{
+    width: 700px;
+    margin: auto;
+}
+
+.compras-form{
+    width: 1500px;
+    margin: auto;
+
+}
+
+
+.my-table{
+}
+
+.table-div {
+    display: none;
+}
+
+.btn-gravar{
+    width: 160px;
+}
+.btn-mostrar{
+    width: 200px;
+
+}
+
+.img-blur{
+    filter: blur(8px);
+}
+
+.h2-title{
+    color: #0A1931;
+    font-family: 'Montserrat', sans-serif;
+}

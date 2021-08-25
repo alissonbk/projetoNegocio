@@ -5,6 +5,7 @@ import br.ufsm.csi.dao.CompraDAO;
 import br.ufsm.csi.dao.ProdutoDAO;
 import br.ufsm.csi.dao.VendedorDAO;
 import br.ufsm.csi.model.*;
+import br.ufsm.csi.service.Contador;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -74,6 +75,7 @@ public class CompraController extends HttpServlet {
 
         req.setAttribute("retorno", retorno);
         System.out.println("Retorno--->"+retorno);
+
         req.setAttribute("compras", new CompraDAO().getCompras());
         req.setAttribute("clientes", new ClienteDAO().getClientes());
         req.setAttribute("vendedores", new VendedorDAO().getVendedores());
